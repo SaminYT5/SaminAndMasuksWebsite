@@ -1,6 +1,14 @@
 :root {
     --base-color: #000000;
     --text-color: #ffffff;
+    --primary-color: #0000ff;
+    --secondary-color: #ff0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -11,12 +19,59 @@ body {
     background-color: var(--base-color);
 }
 
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+img:hover {
+    scale: 1.05;
+}
+
 .text-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .flex-container {
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-items: center;
 }
