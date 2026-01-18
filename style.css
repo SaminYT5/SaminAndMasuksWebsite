@@ -70,6 +70,26 @@ img:hover {
     align-items: center;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#jsbutton {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    border-radius: .5em;
+}
+
+#jsbutton:hover {
+    scale: 1.05;
+    background-color: var(--secondary-color);
+}
+
 .flex-container {
     display: grid;
     justify-content: center;
