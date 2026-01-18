@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>CSS Tips</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                    <li><a href="upcomingvids.html">Up coming vids</a></li>
+                    <li><a href="extras.html">Extras</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="text-container">Type this before styling your website</div>
+        <hr>
+        <div class="text-container">
+            <pre>
+            :root {
+                --base-color: #000000;
+                --text-color: #ffffff;
+                --primary-color: your favorite color;
+                --secondary-color: opposite of your favorite color;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html {
+                color: var(--text-color);
+            }
+
+            body {
+                background-color: var(--base-color);
+            }
+            </pre>
+        </div>
+        <hr>
+        <div class="text-container">Use display: flex; for anything that are not images<br>DON'T USE FLEX FOR IMAGES</div>
+        <div class="text-container">Use justify-content: center; for centering things on the x axis<br>align-items: center; for the y axis</div>
+        <hr>
+        <div class="text-container"><a href="tips.html">Back</a></div>
+    </body>
+</html>
