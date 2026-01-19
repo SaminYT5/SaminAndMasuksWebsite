@@ -95,3 +95,11 @@ img:hover {
     justify-content: center;
     align-items: center;
 }
+
+.header-glow {
+    color: var(--text-color);
+    background-color: var(--base-color);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 0 0 20px var(--primary-color)
+}
