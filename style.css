@@ -103,3 +103,10 @@ img:hover {
     font-size: 70px;
     text-shadow: 0 0 20px var(--primary-color)
 }
+
+.big-text {
+    color: var(--text-color);
+    background-color: var(--base-color);
+    text-align: center;
+    font-size: 70px;
+}
