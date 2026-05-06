@@ -110,3 +110,15 @@ img:hover {
     text-align: center;
     font-size: 70px;
 }
+
+section {
+    display: none;
+}
+
+section#home {
+    display: block;
+}
+
+section:target {
+    display: block;
+}

@@ -1,25 +1,152 @@
 <!DOCTYPE html>
-    <html lang="en-US">
+<html lang="en-US">
     <head>
         <title>Samin & Masuk's Website</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
-                    <li><a href="upcomingvids.html">Up coming vids</a></li>
-                    <li><a href="extras.html">Extras</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="text-container"><h1 class="header-glow">Samin & Masuk's Website</h1></div>
-        <div class="text-container"><h2>this website was made by Samin,<br>this uses HTML, CSS & JavaScript<br>if you don't believe me<br>look at the github repo</h2></div>
-        <div class="flex-container"><img src="Samin.png" width="211" height="211" alt="Samin with a TOY GUN" title="Im Samin & i have a TOY GUN"></div>
-        <hr>
-        <div class="text-container"><p>got any vid ideas?<br>email me<br>saminiscool5@gmail.com</p></div>
-        <hr>
+        <section id="home">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text-container"><h1 class="header-glow">Samin & Masuk's Website</h1></div>
+            <div class="text-container"><h2>this website was made by Samin,<br>this uses HTML, CSS & JavaScript<br>if you don't believe me<br>look at the github repo</h2></div>
+            <div class="flex-container"><img src="Samin.png" width="211" height="211" alt="Samin with a TOY GUN" title="Im Samin & i have a TOY GUN"></div>
+            <hr>
+            <div class="text-container"><p>got any vid ideas?<br>email me<br>saminiscool5@gmail.com</p></div>
+            <hr>
+        </section>
+        <section id="extras">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text-container"><p>My email: saminiscool5@gamil.com</p></div>
+            <div class="text-container"><p>Masuk's email: thecoolmasuk2001@gmail.com</p></div>
+            <div class="text-container"><p>The code for our website is open source</p></div>
+            <div class="text-container"><a href="https://github.com/SaminYT5/SaminAndMasuksWebsite">click here</a></div>
+            <div class="text-container"><a href="#tips">Tips</a></div>
+            <div class="text-container"><a href="#update">Update Log</a></div>
+            <div class="button-container"><button id="jsbutton">What does tis button do?</button></div>
+            <script src="script.js"></script>  
+        </section>
+        <section id="tips">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text-container">Use Visual Studio Code for coding</div>
+            <hr>
+            <div class="text-container"><a href="#html">HyperText Markup Language</a></div>
+            <div class="text-container"><a href="#css">Cascading Style Sheet</a></div>
+            <hr>
+            <div class="text-container"><a href="#extras">Back</a></div>
+        </section>
+        <section id="html">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text-container">Name the HTML file index.html</div>
+            <div class="text-container">Type the stuff below before coding your website</div>
+            <hr>
+            <div class="text-container">
+                <pre>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="your preferred language"&gt;
+                        &lt;head&gt;
+                            &lt;title&gt;your website name&lt;/title&gt;
+                            &lt;link rel="stylesheet" href="css file name.css"&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                            the things on your website goes here
+                        &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+            </div>
+            <hr>
+            <div class="text-container">Use &lt;div class="text-container"&gt; for text, links, buttons & etc. to stylize it in CSS<br>don't forget to use &lt;/div&gt; after typing the text</div>
+            <div class="text-container">Use &lt;div class="flex-container"&gt; for any form of image</div>
+            <div class="text-container">Use the attribute "id" for things that run a JS script<br>DON'T USE IT ON THE DIV TAG</div>
+            <hr>
+            <div class="text-container"><a href="#tips">Back</a></div>
+        </section>
+        <section id="css">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text-container">Type this before styling your website</div>
+            <hr>
+            <div class="text-container">
+                <pre>
+                    :root {
+                        --base-color: #000000;
+                        --text-color: #ffffff;
+                        --primary-color: your favorite color;
+                        --secondary-color: opposite of your favorite color;
+                    }
+
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+
+                    html {
+                        color: var(--text-color);
+                    }
+
+                    body {
+                        background-color: var(--base-color);
+                    }
+                </pre>
+            </div>
+            <hr>
+            <div class="text-container">Use display: flex; for anything that are not images<br>DON'T USE FLEX FOR IMAGES</div>
+            <div class="text-container">Use justify-content: center; for centering things on the x axis<br>align-items: center; for the y axis</div>
+            <div class="text-container">Use . for things with the class attribute<br># for things with the id attribute</div>
+            <hr>
+            <div class="text-container"><a href="#tips">Back</a></div>
+        </section>
+        <section id="update">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="https://www.youtube.com/@SaminAndMasuk">Channel</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="text-container">V2.0.0</div>
+            <div class="text-container">Added The Update Log<br>Made all the pages into one HTML file</div>
+        </section>
     </body>
 </html>
