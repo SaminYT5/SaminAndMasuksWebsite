@@ -110,6 +110,12 @@ img:hover {
     text-align: center;
     font-size: 70px;
 }
+.hidden-text {
+    color: var(--base-color);
+    background-color: var(--base-color);
+    text-align: center;
+    font-size: 10px;
+}
 
 section {
     display: none;
